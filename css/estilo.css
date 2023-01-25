@@ -2,6 +2,7 @@ html,
 body,
 #home {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -65,11 +66,69 @@ nav.navbar-transparente {
 	color: black;
 }
 
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos h2,
+h3 {
+	color: #7c26f8;
+}
+
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 10px;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
 h1 {
 	font-weight: 900;
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
 }
 
 @media (max-width: 575.98px) {
